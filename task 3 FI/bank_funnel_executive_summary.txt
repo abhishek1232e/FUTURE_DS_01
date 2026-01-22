@@ -1,0 +1,14 @@
+BANK MARKETING FUNNEL ANALYSIS - EXECUTIVE SUMMARY
+============================================================
+
+Campaign Contacts: 4,521
+Term Deposit Conversions: 521
+Overall Conversion Rate: 11.52%
+Primary Bottleneck: Stage 3
+Best Channel: telephone (14.62% CVR)
+
+TOP 3 RECOMMENDATIONS:
+----------------------------------------
+• **Optimize Weakest Stage**: Focus resources on improving Stage 2 conversion from current rate
+• **Channel Strategy**: Increase use of best-performing contact channel by 20-30%
+• **Targeted Marketing**: Create specialized campaigns for high-conversion job types
