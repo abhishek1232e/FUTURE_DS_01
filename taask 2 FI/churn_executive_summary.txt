@@ -1,0 +1,13 @@
+TELCO CHURN ANALYSIS - EXECUTIVE SUMMARY
+============================================================
+
+Churn Rate: 26.5% (1,869 customers)
+Monthly Revenue at Risk: $139,131
+Critical Risk Period: First 0-3m
+Top Risk Factor: Month-to-month contracts
+
+TOP 3 RECOMMENDATIONS:
+----------------------------------------
+• **Early Intervention Program**: Target customers in first 3 months with personalized onboarding and support
+• **Contract Incentives**: Convert month-to-month to annual contracts with 10-15% discount
+• **Payment Method Optimization**: Encourage electronic checks over mailed checks (27.2% lower churn)

@@ -1,0 +1,118 @@
+
+================================================================================
+FUTURE INTERNS - TASK 2: TELCO CUSTOMER CHURN ANALYSIS
+================================================================================
+Dataset: WA_Fn-UseC_-Telco-Customer-Churn.csv
+Analysis Date: 2026-01-22 08:54:22
+================================================================================
+
+EXECUTIVE SUMMARY
+-----------------
+• Total Customers Analyzed: 7,043
+• Overall Churn Rate: 26.5% (1,869 customers)
+• Monthly Revenue at Risk: $139,131
+• Annual Revenue Impact: $1,669,570
+• Critical Risk Period: First 0-3m
+• Most Vulnerable Segment: Month-to-Month Contract Customers
+
+KEY METRICS
+-----------
+1. Customer Retention:
+   • Retained Customers: 5,174 (73.5%)
+   • Churned Customers: 1,869 (26.5%)
+
+2. Tenure Analysis:
+   • Average Tenure (All): 32.4 months
+   • Average Tenure (Churned): 18.0 months
+   • Average Tenure (Retained): 37.6 months
+   • Tenure-Churn Correlation: -0.352
+
+3. Financial Impact:
+   • Avg Monthly Charge (All): $64.76
+   • Avg Monthly Charge (Churned): $74.44
+   • Avg Monthly Charge (Retained): $61.27
+
+TOP 5 RISK FACTORS
+------------------
+1. CONTRACT TYPE:
+   • Month-to-month: 42.7% churn
+   • One year: 11.3% churn  
+   • Two year: 2.8% churn
+
+2. PAYMENT METHOD:
+   • Electronic check: 45.3% churn
+   • Mailed check: 19.1% churn
+   • Bank transfer: 16.7% churn
+   • Credit card: 15.2% churn
+
+3. TENURE GROUPS:
+   • 0-3 months: 56.8% churn
+   • 4-6 months: 44.6% churn
+   • 7-12 months: 35.9% churn
+
+4. MONTHLY CHARGES:
+   • >$120: nan% churn
+   • $90-120: 32.8% churn
+   • $60-90: 33.9% churn
+
+5. INTERNET SERVICE:
+   • Fiber optic: 41.9% churn
+   • DSL: 19.0% churn
+   • No internet: 7.4% churn
+
+CUSTOMER SURVIVAL RATE
+-----------------------
+After  1 month: 99.8% active
+After  3 months: 87.8% active  
+After  6 months: 80.5% active
+After 12 months: 70.6% active
+After 24 months: 55.8% active
+After 36 months: 43.3% active
+
+ACTIONABLE RECOMMENDATIONS
+--------------------------
+• **Early Intervention Program**: Target customers in first 3 months with personalized onboarding and support
+• **Contract Incentives**: Convert month-to-month to annual contracts with 10-15% discount
+• **Payment Method Optimization**: Encourage electronic checks over mailed checks (27.2% lower churn)
+• **At-Risk Customer Flagging**: Use tenure (<12 months) + monthly charges (>$70) as churn predictors
+• **Service Bundle Optimization**: Review combinations with high churn and improve value proposition
+• **Proactive Retention**: Reach out to customers showing 2+ risk factors before they churn
+• **Loyalty Rewards**: Implement tenure-based rewards starting at 6 months
+• **Churn Prediction Model**: Build ML model using tenure, contract, charges as key features
+
+EXPECTED IMPACT
+---------------
+Implementing these recommendations could potentially:
+• Reduce churn rate from 26.5% to under 20% (30%+ improvement)
+• Save $41,739 monthly in recovered revenue
+• Increase average customer lifetime from 32.4 to 38.8 months
+• Improve customer satisfaction and referral rates
+
+DELIVERABLES CREATED
+--------------------
+1. churn_overall.png - Overall churn distribution pie chart
+2. churn_by_contract.png - Churn by contract type bar chart  
+3. churn_by_tenure.png - Churn by tenure groups bar chart
+4. churn_by_charges.png - Churn by monthly charges bar chart
+5. This comprehensive analysis report
+6. Raw analysis data and insights
+
+METHODOLOGY
+-----------
+1. Data cleaning and preprocessing
+2. Descriptive statistics and segmentation
+3. Correlation and trend analysis
+4. Demographic and service analysis
+5. Business insight generation
+6. Visualization and reporting
+
+NEXT STEPS
+----------
+• Implement churn prediction model using machine learning
+• Design A/B tests for retention strategies
+• Create real-time churn dashboard for monitoring
+• Develop customer health scoring system
+
+================================================================================
+ANALYSIS COMPLETE - READY FOR BUSINESS DECISION MAKING
+================================================================================
